@@ -1,0 +1,172 @@
+/***********************Class Selector**********************************/
+.Container-fluid{
+       padding:3% 15% 7%;
+}
+/*navigation bar */
+.nav-link{
+       font-size: 1.2rem;
+       font-family: "Montserrat-light";
+}
+.nav-item{
+       padding: 0px 18px;
+}
+.navbar{
+       margin:0 0 5rem;
+       padding-top: 30%;
+
+}
+.navbar-brand{
+       font-family: "Ubuntu";
+       font-size: 2.5rem;
+       font-weight: bold;
+       margin: 0 ;
+}
+/*Download button */
+.download-button{
+       margin: 5% 3% 5% 0%;
+}
+
+/*************************tag Selector******************************/
+body{
+       font-family: "Montserrat";
+       text-align: center;
+}
+
+h3{
+       font-family: 'Bad Script', cursive;
+       font-size: 2rem;
+       line-height: 1.5;
+       
+     }
+h2{
+       font-family: "Montserrat-Bold";
+       font-size: 3rem;
+       line-height: 1.5;
+}
+ p{
+       font-family: 'Anton', sans-serif;
+       line-height: 1;
+ }    
+  /*big heading*/
+  .h1{
+       font-family: "Montserrat-black";
+       font-size: 4rem;
+       line-height: 1.5;
+      }
+ .text-center{
+           width:80%;
+           margin: 0% 9%;
+           text-align: center;
+           color: #8f8f8f;
+    }
+/************************ID Selector*****************************************/
+#title{
+      
+       text-align: left;
+}
+
+#title .Container-fluid{
+       padding: 3% 15% 7%;
+}
+/*title-imagee */
+.title-image{
+       width: 45%;
+       margin: 5% 3% ;
+       transform:rotate(35Deg);
+       position: absolute;
+       right:30%;
+      
+   
+}
+/*--features---*/
+#features{
+       padding: 7% 12%;
+       position:relative;
+       z-index: 1;
+}
+.feature-box{
+       text-align:center;   
+}
+.icon{
+     
+       color:#ef8172;
+       margin-bottom: 1rem;
+}
+.icon:hover{
+       color: #ff4c68;
+}
+/*---testimonials---*/
+#testimonials{
+       padding: 7% 12% ;
+       text-align:center;
+       background-color: #ef8172;
+       color: #fff;
+}
+.testimonial-image{
+       width: 20%;
+       border-radius: 100%;
+       margin:20px;
+}
+.carousel-item{
+       padding: 7% 12%;
+}
+/*----press0--*/
+#press{
+       background-color: #ef8172;
+       padding-bottom: 3%;
+       text-align: center;
+}
+.press-logo{
+       width: 15%;
+       margin: 20px 20px 50px;
+}
+
+/*-- Pricing --*/
+#pricing{
+       padding: 100px;
+}
+.pricing-column{
+       padding: 3% 2%;
+}
+
+    /*--CTA-section--*/
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+       font-family: "Montserrat-black";
+       font-size: 3.5rem;
+       line-height: 1.5;
+}
+/*section*/
+.color-section{
+       background-color: #ff4c71;
+       color:#fff;
+}
+.white-section{
+       background-color: #fff;
+}
+
+   /*--Footer-section--*/
+   #footer{
+       padding: 7% 15%;
+       text-align: center;
+   }
+   .social-icon{
+          margin: 15px 10px;
+   }
+
+
+
+@media(max-width:900px){
+
+       #title{
+         text-align: center;
+       }
+     
+    .title-image{
+           position: static;
+           transform:rotate(0);
+    }
+}
